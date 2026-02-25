@@ -270,3 +270,20 @@ footer {
     max-height: 200px;
   }
 }
+
+/* Centraliza o menu em telas menores (mobile) */
+@media screen and (max-width: 767px) {
+  header {
+    justify-content: center;
+  }
+
+  nav#menu ul {
+    justify-content: center;
+    gap: 8px;
+  }
+
+  /* Garante que os links do menu fiquem acessíveis e com espaçamento adequado */
+  nav#menu a {
+    padding: 10px 12px;
+  }
+}
