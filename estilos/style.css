@@ -15,7 +15,7 @@
 }
 
 :root {
-  --fundo-principal: #dddddd;
+  --fundo-principal: #f3f3f3;
   --texto: #222222;
   --texto-inverso: #ffffff;
   --destaque: #302b50;
@@ -36,10 +36,12 @@ body.escuro {
   --fundo-principal: #1b1b1b;
   --texto: #e0e0e0;
   --texto-inverso: #000000;
-  --destaque: #918556;
-  --destaque-inverso: #c9b977;
+  --destaque: #888888; 
+  --destaque-inverso: #686868;
   --fundo-card: #303030;
+  background-color: ;
 }
+
 /* 
   --fundo-principal: #222222;
   --texto: #e0e0e0;
