@@ -39,7 +39,6 @@ body.escuro {
   --destaque: #888888; 
   --destaque-inverso: #686868;
   --fundo-card: #303030;
-  background-color: ;
 }
 
 /* 
@@ -61,6 +60,7 @@ header {
   position: sticky;
   top: 0;
   z-index: 1;
+  border-radius: 0px 0px 5px 5px;
 }
 
 nav#menu ul {
@@ -76,6 +76,7 @@ nav#menu a {
   padding: 12px 15px;
   border-radius: 5px;
   transition: background-color 0.5s, color 0.5s;
+  
 }
 
 nav#menu a:hover {
@@ -275,8 +276,9 @@ footer {
   background-color: var(--destaque);
   color: var(--texto-inverso);
   text-align: center;
-  padding: 15px;
+  padding: 5px;
   font-size: 0.85em;
+  border-radius: 5px 5px 0px 0px;
 }
 
 @media screen and (min-width: 824px) {
