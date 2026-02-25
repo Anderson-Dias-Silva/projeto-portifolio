@@ -28,6 +28,17 @@ body {
   line-height: 1.5em;
   background-color: var(--fundo-principal);
   color: var(--texto);
+  transition: background-color 0.7s, color 0.7s;
+}
+
+/* Configurações para modo escuro (em junção com JavaScript) */
+body.escuro {
+  --fundo-principal: #222222;
+  --texto: #e0e0e0;
+  --texto-inverso: #333333;
+  --destaque: #ff5522;
+  --destaque-inverso: #a73917;
+  --fundo-card: #444444;
 }
 
 header {
@@ -258,7 +269,7 @@ footer {
   font-size: 0.85em;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 824px) {
   main {
     grid-template-columns: auto 300px 1fr auto;
   }
