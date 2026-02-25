@@ -240,6 +240,12 @@ article h2 {
   border-radius: 8px;
 }
 
+footer {
+  background-color: var(--destaque);
+  color: var(--texto-inverso);
+  text-align: center;
+  padding: 15px;
+}
 
 @media screen and (min-width: 768px) {
   #skill-container {
@@ -249,5 +255,15 @@ article h2 {
   #projeto-container .projeto {
     flex-direction: row-reverse;
     justify-content: space-between;
+  }
+
+  #projeto-container .projeto-info {
+    max-width: 80%;
+  }
+
+  #projeto-container.foto {
+    aspect-ratio: 1/1;
+    max-width: 20%;
+    max-height: 200px;
   }
 }
