@@ -264,7 +264,7 @@ footer {
     max-width: 80%;
   }
 
-  /* Corrige seletor: aplica estilo às imagens dentro do container de projetos
+/* Corrige seletor: aplica estilo às imagens dentro do container de projetos
      Em layout em linha, define uma largura fixa máxima para evitar que cresçam
      demais em telas muito largas. */
   #projeto-container .projeto .foto {
@@ -273,6 +273,24 @@ footer {
     max-height: 200px;
     object-fit: cover;
     flex: 0 0 220px;
+  }
+}
+
+/* Limite máximo e transição para o vídeo em telas grandes */
+@media screen and (min-width: 700px) {
+  .video-container {
+    width: 100%;
+    max-width: 700px; /* limite máximo do player */
+    margin: 0 auto;
+    transition: max-width 0.3s ease;
+  }
+
+  .video-container iframe {
+    transition: transform 0.25s ease, max-width 0.3s ease;
+  }
+
+  .video-container:hover iframe {
+    transform: scale(1.02);
   }
 }
 
