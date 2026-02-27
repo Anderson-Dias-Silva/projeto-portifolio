@@ -33,12 +33,12 @@ body {
 
 /* Configurações para modo escuro (em junção com JavaScript) */
 body.escuro {
-  --fundo-principal: #1b1b1b;
+  --fundo-principal: #222222;
   --texto: #e0e0e0;
-  --texto-inverso: #000000;
-  --destaque: #888888; 
-  --destaque-inverso: #686868;
-  --fundo-card: #303030;
+  --texto-inverso: #333333;
+  --destaque: #aef3ff;
+  --destaque-inverso: #6eb1bd;
+  --fundo-card: #444444;
 }
 
 /* 
@@ -60,7 +60,6 @@ header {
   position: sticky;
   top: 0;
   z-index: 1;
-  border-radius: 0px 0px 5px 5px;
 }
 
 nav#menu ul {
@@ -278,7 +277,6 @@ footer {
   text-align: center;
   padding: 5px;
   font-size: 0.85em;
-  border-radius: 5px 5px 0px 0px;
 }
 
 @media screen and (min-width: 824px) {
