@@ -35,10 +35,10 @@ body {
 body.escuro {
   --fundo-principal: #222222;
   --texto: #e0e0e0;
-  --texto-inverso: #b1b1b1;
-  --destaque: #000000;
-  --destaque-inverso: #818181;
-  --fundo-card: #444444;
+  --texto-inverso: #333333;
+  --destaque: #aef3ff;
+  --destaque-inverso: #67a4af;
+  --fundo-card: #444444; 
 }
 
 /* 
