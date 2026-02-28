@@ -103,6 +103,7 @@ section#ficha {
   border-radius: 8px;
   grid-column: 2;
   text-align: center;
+  box-shadow: 1px 1px 1px var(--texto);
 }
 
 section#ficha img.foto {
