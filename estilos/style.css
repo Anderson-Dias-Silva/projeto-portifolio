@@ -88,6 +88,7 @@ nav#menu a i {
   font-size: 1.25rem;
   line-height: 1;
   display: inline-block;
+  margin-top: 5px;
 }
 
 main {
@@ -271,6 +272,10 @@ article h2 {
   object-fit: cover;
   overflow: hidden;
   border-radius: 8px;
+}
+
+#projeto-container .projeto a {
+  color: var(--texto);
 }
 
 footer {
